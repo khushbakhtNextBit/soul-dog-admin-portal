@@ -7,7 +7,7 @@ app.use(express.static(path.join(__dirname, "build")));
 app.use(
   [
     "/getAllJobs",
-    "/addJob",
+    "/addJob", 
     "/updateJob",
     "/getJob",
     "/deleteJob",
